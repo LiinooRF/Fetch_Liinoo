@@ -1,0 +1,154 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #335918;
+  height: 100vh;
+}
+
+h1 {
+  font-family: "cabin", sans-serif;
+  color: #fff;
+  text-shadow: 2px 2px 3px #000,2px 2px 3px #000;
+  font-size: 3em; 
+}
+h2 {
+  font-family: "cabin", sans-serif;
+  color: #fff;
+  text-shadow: 2px 2px 3px #000,2px 2px 3px #000;
+  font-size: 2em; 
+  margin: 4px;
+  display: block;
+}
+
+h3 {
+  text-align: center;
+  font-family: "cabin", sans-serif;
+  color: #fff;
+  text-shadow: 2px 2px 3px #000,2px 2px 3px #000;
+  font-size: 2em; 
+  display: block;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  color: #fff;
+  text-shadow: 2px 2px 3px #000,2px 2px 3px #000;
+  font-size: 1em; 
+  display: block;
+}
+#rondas {
+  text-align: center;
+}
+#jugadas {
+  margin: auto;
+  width: 70% ;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  text-shadow: 2px 2px 3px #000,2px 2px 3px #000;
+  font-size: 1em; 
+  display: block;
+}
+li {
+  text-align: center;
+}
+#titulo , #ingreso {
+  display: flex;
+  justify-content: center;
+}
+
+#inicio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.bienvenida {
+  text-align: center;
+}
+
+.mesa {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  padding: 2px 10px;
+  margin: 10px 20px;
+  align-self: center;
+  width: fit-content;
+  background-color: #000;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.mano {
+  width: 60%;
+  height: 160px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  border-radius: 20px;
+  border: 10px solid #E6BF25;
+}
+
+.marcoCarta {
+  width: 50px;
+  height: 80px;
+  margin: 5px;
+  background-color: #fff;
+  border: #000;
+  box-shadow: 10px 5px 5px black;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fondoCarta {
+  width: 45px;
+  height: 70px;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fondoNumero {
+  width: 45px;
+  height: 65px;
+  border-radius: 50px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.numeroCarta {
+  
+  color: #1339D4;
+  text-shadow: 2px 2px 3px #000,2px 2px 3px #000, 2px 2px 3px #000;
+  font-family: "cabin", sans-serif;
+  font-size: 35px;
+  letter-spacing: -5px;
+  
+}
+
+.seccionInteraccion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.swal2-popup {
+  background-color: #335918;
+}

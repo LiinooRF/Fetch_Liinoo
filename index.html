@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@1,600;1,700&family=Open+Sans:ital,wght@0,400;0,600;1,300&display=swap" rel="stylesheet">
+    <title>LiinooBlackJack</title>
+</head>
+<body>
+    <div id="titulo">
+        <h1>Intento de casino</h1>
+    </div>
+    <form id="ingreso">
+        <fieldset>
+            <legend>¡Hola! Para ingresar al jugo queremos saber tu nombre:</legend>
+            <label for="nombre">Nombre: </label>
+            <input type="text" id="nombre" placeholder="Coloca aquí tu nombre" required>
+            <input type="submit" value="Ingresar">
+        </fieldset>
+    </form>
+        <h2 id="bienvenida" class="bienvenida"></h2>
+    <div id="inicio">
+        <p id="mensajeInicio"></p>
+        <button id="botonInicio" style="display: none;">Empezar</button>
+    </div>
+    <section class="mesa">
+        <h2>Cartas del Casino</h2>
+        <div id="cartasCasino" class="mano">
+        </div>
+        <h2>Tus cartas</h2>
+        <div id="seguirJugando" class="textoAbandono">
+            
+        </div>
+        <div class="botonesAbandono">
+            <button id="botonSi" style="display: none;">SI</button>
+            <button id="botonNo" style="display: none;">No</button>
+        </div>
+        <div id="cartasJugador" class="mano">
+        </div>
+    </section>
+    <section class="seccionInteraccion">
+
+        
+        <div id="resultadoFinal" class="resultadoFinal">
+            
+        </div>
+        <div>
+            <button id="seguir" style="display: none;">Seguir</button>
+            <button id="terminar" style="display: none;">Terminar</button>
+        </div>
+    </section>
+    <div>
+        <h2 id="rondas"></h2>    
+        <ol id="jugadas"></ol>
+    </div>
+    <div id="ganados">
+
+    </div>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./Js/script.js"></script>
+</body>
+</html>
