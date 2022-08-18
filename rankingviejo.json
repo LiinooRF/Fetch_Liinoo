@@ -1,0 +1,13 @@
+{
+    "jugadas":[
+        {
+        "resumen": "James Bond sacó 2 cartas, sumó 21 y sacó Black Jack"
+        },
+        {
+        "resumen": "Rainman sacó 3 cartas, sumó 21 y sacó Black Jack"
+        },
+        {
+        "resumen": "Homero Simpson sacó 3 cartas, sumó 22 y perdió"
+        }
+    ]
+}
